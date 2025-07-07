@@ -4,6 +4,10 @@
 name: "Analytics_Sivalakshmi"
 version: "1.0.0"
 config-version: 2
+vars:
+      cid: 1000 
+      current_date: 2022-12-31
+
 
 # This setting configures which "profile" dbt uses for this project.
 profile: "default"
@@ -38,3 +42,4 @@ models:
     # Applies to all files under models/example/
     stage:
       +materialized: table
+    
